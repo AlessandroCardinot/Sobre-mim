@@ -1,0 +1,17 @@
+.decoration{
+    text-decoration: none;
+}
+.decoration:hover{
+    color: rgb(168, 29, 29);
+}
+h1{
+    text-align: center;
+    line-height: 70px;
+    
+}
+.espaco{
+    padding-left: 50px;
+    font-weight: 50px;
+    padding-right: 65%;
+}
+

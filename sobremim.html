@@ -5,29 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alessandro</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
+    <h1>Alessandro Cardinot</h1>
+    <div class="espaco">
         <h2>Sobre mim</h2>
         <img src = "https://pps.whatsapp.net/v/t61.24694-24/158946486_5356433777730283_8012158396301012432_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdRvcwJLjSnekJ90kBZ6GB6NR8oqhFqsfzy7ajQv8GyZEg&oe=64457F94" 
         width="200" height="200" botom-align alt = "Imagem minha">
-    </div>
-    <p>Texto sobre mim</p>
-    <hr>
-    <div>
+    </div class=>
+    <p class="espaco">Meu nome é Alessandro Cardinot Bernardo da Silveira, atualmente estou cursando o 3º ano da Ensino médio no Colégio Estadual Padre Franca.</p>
+    <div class="espaco">
         <h2>Redes sociais</h2>
-            <ul type="square"><li>Facebook</li>
+            <ul type="square">
+                <li>Facebook</li>
                 <li>Tik tok</li>
                 <li>Instagram</li>
             </ul>
     </div>
-    <div>
+    <div class="espaco">
         <h2>Saiba mais</h2>
-            <ul><li><a href="https://github.com/AlessandroCardinot" target="_blank">Github</a></li>
-                <li><a href="https://br.linkedin.com/" target="_blank">Linkedin</a></li>
+            <ul><li><a class="decoration" href="https://github.com/AlessandroCardinot" target="_blank">Github</a></li>
+                <li><a class="decoration" href="https://br.linkedin.com/" target="_blank">Linkedin</a></li>
             </ul>
     </div>
-    <h2>Inserindo vídeo do youtube</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/qo155ovb2PQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2 class="espaco">Vídeo favorito</h2>
+    <iframe class="espaco" width="700" height="395" src="https://www.youtube.com/embed/h5IzOfmw4BU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="espaco">
+        <h2>Entre em contato</h2>
+        <form action="">
+            <fieldset>
+                <div>
+                    <label for="pnome">Nome:</label>
+                    <input type="text" id="pnome" name="pnome"><br><br>
+                    <label for="snome">Sobrenome:</label>
+                    <input type="text" id="pnome" name="pnome"><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="recado">Deixe o seu recado:</label>
+                    <textarea name="recado" id="recado" cols="50" rows="5"></textarea><br><br>
+                </div>
+                <div>
+                    <p>Sexo:</p>
+                    <input type="radio" id="m" name="F-ou-M" value="M">
+                    <label for="m">M</label>
+                    <input type="radio" id="f" name="F-ou-M" value="F">
+                    <label for="f">F</label><br><br>
+                    <p>Vc gostou do site? </p>
+                    <input type="radio" id="s" name="site" value="S">
+                    <label for="s">Sim</label>
+                    <input type="radio" id="n" name="site" value="N">
+                    <label for="n">Não</label><br><br>
+                </div>
+                <button type="submit">Enviar</button><br>
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
