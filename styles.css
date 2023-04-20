@@ -29,3 +29,21 @@
 #baixo{
     padding-top: 100px;
 }
+.btn{
+    border: none;
+    padding: 5px 10px;
+    background-color: #3de44b;
+    color: #1e6e16;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+.cursor{
+    cursor: pointer;
+}
+.btn:hover{
+    border: none;
+    padding: 5px 10px;
+    background-color: #1e6e16;
+    color: #3de44b;
+    cursor: pointer;
+}
