@@ -4,14 +4,28 @@
 .decoration:hover{
     color: rgb(168, 29, 29);
 }
-h1{
-    text-align: center;
-    line-height: 70px;
-    
-}
 .espaco{
     padding-left: 50px;
     font-weight: 50px;
+    
+}
+#form{
     padding-right: 65%;
 }
-
+.limpo{
+    list-style: none;
+}
+.fixo{
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+    margin: 0px;
+}
+#baixo{
+    padding-top: 100px;
+}
