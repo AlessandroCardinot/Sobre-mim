@@ -1,8 +1,9 @@
 body{
     background-color: #063f01;
+}
+.ct{
     text-align: center;
 }
-
 /* Link */
 .decoration{
     text-decoration: none;
@@ -23,6 +24,7 @@ body{
     background-color: #063f01;
     margin: 0px;
     color: #ffffff;
+    border-bottom: 1px solid #fff;
 }
 /* Conteúdo */
 .espaco{
@@ -43,14 +45,6 @@ h2{
     color: #ffffff;
 }
 /* Formulário */
-#form{
-    text-align: center;
-}
-input, textarea{
-    border-radius: 5px;
-    border: 1px solid #0b5e0e;
-    background-color: #063f01;
-}
 label{
     
     font-size: 20px;
@@ -58,6 +52,21 @@ label{
 }
 fieldset{
     border: 0;
+}
+h4 {
+    color: #fff;
+}
+input {
+    margin: 1em 0;
+}
+.margem {
+    margin: 3em 0 3em 3em;
+}
+#footer1 {
+    margin-left: 2em;
+}
+#footer2 {
+    margin-left: 1em;
 }
 /* Lista */
 .limpo{
@@ -78,6 +87,7 @@ li{
     transition: background-color .3s;
     border-radius: 7px;
     font-size: large;
+    margin-left: 5em;
 }
 .cursor{
     cursor: pointer;
