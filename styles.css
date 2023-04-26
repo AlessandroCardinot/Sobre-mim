@@ -1,10 +1,13 @@
 body{
-    background-color: #063f01;
+    background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);
+    background-color: #23a6d5;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .ct{
     text-align: center;
 }
-/* Link */
+/* LINK */
 .decoration{
     text-decoration: none;
     color: #156b0f;
@@ -19,9 +22,8 @@ body{
     top: 0;
     font-size: 29px;
     width: 100%;
-    text-align: center;
     padding: 20px;
-    background-color: #063f01;
+    background-color: #23a6d5;
     margin: 0px;
     color: #ffffff;
     border-bottom: 1px solid #fff;
@@ -43,6 +45,9 @@ h2{
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
+}
+.foto {
+    border: 5px solid #2361d5;
 }
 /* Formulário */
 label{
@@ -81,10 +86,10 @@ li{
 .btn{
     border: none;
     padding: 7px 14px;
-    background-color: #26a531;
-    color: #063f01;
+    background-color: #23a6d5;
+    color: #000281;
     cursor: pointer;
-    transition: background-color .3s;
+    transition: 0.3s;
     border-radius: 7px;
     font-size: large;
     margin-left: 5em;
@@ -95,7 +100,7 @@ li{
 .btn:hover{
     border: none;
     padding: 7px 14px;
-    background-color: #063f01;
-    color: #26a531;
+    background-color: #000281;
+    color: #23a6d5;
     cursor: pointer;
 }

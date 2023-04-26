@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://us.123rf.com/450wm/chuckchee/chuckchee1706/chuckchee170600040/80120921-pixel-art-game-background-with-tree-ground-grass-sky-and-clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -555px;
+    background-color: rgb(73, 30, 2);
+}
+#game {
+    width: 100%;
+    height: 300px;
+    
+
+}
+#personagem {
+    width: 100px;
+    height: 100px;
+    background-image: url(https://i.pinimg.com/originals/3c/f4/42/3cf442eb0574a06127a2db3a6bd6e633.gif);
+    position: relative;
+    top: 500px;
+    left: 150px;
+    background-size: cover;
+    background-position-x: center;
+}
+.animar {
+    animation: personagem 500ms infinite;   
+}
+@keyframes personagem {
+    0%{top: 500px;}
+    30%{top: 440px;}
+    70%{top: 440px;}
+    100%{top: 500px;}
+
+}
+#cano {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://cdn.pixabay.com/photo/2013/07/12/13/52/super-mario-brothers-147465_1280.png);
+    background-size: cover;
+    position: relative;
+    top: 450px;
+    left: 1870px;
+    animation: cano 650ms infinite linear;
+}
+@keyframes cano {
+    0%{left: 1870px;}
+    100%{left: -40px;}
+}
