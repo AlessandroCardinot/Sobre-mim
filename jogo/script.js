@@ -3,7 +3,7 @@ let cano = document.querySelector('#cano')
 
 document.addEventListener("keydown", function(e) {
     console.log(e)
-    if(e.key === " " || e.key == "ArrowUp") {
+    if(e.key === " " || e.key === "ArrowUp") {
         pular()
     }
 });
