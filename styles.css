@@ -28,8 +28,28 @@ body{
     color: #ffffff;
     border-bottom: 1px solid #fff;
 }
+.bg {
+    background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+}
+.título {
+    font-size: 40px;
+}
+.text {
+    font-size: 20px;
+    margin-left: 40px;
+}
+.align {
+    margin-left: 100px;
+}
+.text:hover {
+    border-bottom: 1px solid #000;
+}
 /* Conteúdo */
 .espaco{
+    margin-top: 40px;
     padding-left: 50px;
     font-weight: 50px;
     

@@ -24,7 +24,7 @@ function pular(){
         window.getComputedStyle(cano).getPropertyValue('left')
     )
     console.log(cano)
-    if (EsquerdaCano < 250 && EsquerdaCano > 150 && topoPersonagem >= 480) {
+    if (EsquerdaCano < 250 && EsquerdaCano > 150 && topoPersonagem >= 450) {
         cano.style.animation = "none"
         cano.style.display = 'none'
         alert('Você Perdeu')
