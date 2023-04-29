@@ -15,9 +15,6 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top container bg">
             <div class="container-fluid">
                 <a class="navbar-brand título" href="#">Alessandro Cardinot</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse align" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                     <a class="nav-link active text" aria-current="page" href="#">Sobre mim</a>
@@ -31,22 +28,24 @@
         </nav>
     </header>
     <!-- Conteúdo -->
-    <div class="espaco ct" id="baixo">
-        <h2>Sobre mim</h2>
-        <img src = "https://pps.whatsapp.net/v/t61.24694-24/158946486_5356433777730283_8012158396301012432_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdRvcwJLjSnekJ90kBZ6GB6NR8oqhFqsfzy7ajQv8GyZEg&oe=64457F94" 
-        width="200" height="200" class="foto" botom-align alt = "Imagem minha">
-    </div class=>
-    <p class="espaco ct">Meu nome é Alessandro Cardinot Bernardo da Silveira, atualmente estou cursando o 3º ano da Ensino médio no Colégio Estadual Padre Franca.</p>
-    <div class="espaco ct">
-        <!-- Listas -->
-        <h2 id="redes">Redes sociais</h2>
+    <div class="espaco container" id="baixo">
+        <h1 class="title">Sobre mim</h1>
+        <img src = "https://pps.whatsapp.net/v/t61.24694-24/158946486_5356433777730283_8012158396301012432_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdRoLfPrIv7PN9t5syHBk0Y-jnmtXQEC4ov3Ai7gzRDE1w&oe=64555194" 
+        width="200" height="200" class="foto baixo" botom-align alt = "Imagem minha">
+    </div>
+    <div class="container">
+        <p id="redes" class="espaco col-6">Meu nome é Alessandro Cardinot Bernardo da Silveira, atualmente estou cursando o 3º ano da Ensino médio no Colégio Estadual Padre Franca.</p>
+    </div>
+    <!-- Listas -->
+    <div class="espaco container baixo">
+        <h2>Redes sociais</h2>
             <ul class="limpo">
                 <li>Facebook</li>
                 <li>Tik tok</li>
                 <li>Instagram</li>
             </ul>
     </div>
-    <div class="espaco ct">
+    <div class="espaco container baixo">
         <h2>Saiba mais</h2>
             <ul class="limpo">
                 <li><a class="decoration" href="https://github.com/AlessandroCardinot" target="_blank">Github</a></li>
@@ -54,29 +53,27 @@
             </ul>
     </div>
     <!-- Vídeo -->
-    <div class="ct">
-        <h2 class="espaco" id="video">Vídeo favorito</h2>
-        <iframe class="espaco" width="700" height="395" src="https://www.youtube.com/embed/h5IzOfmw4BU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="container baixo" id="video">
+        <h2 class="espaco">Vídeo favorito</h2>
+        <iframe class="espaco" width="1000" height="565" src="https://www.youtube.com/embed/h5IzOfmw4BU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    <div class="espaco">
+    <div class="espaco baixo">
         <!-- Formulário -->
-        <footer class="container-fluid" id="footer">
+        <footer class="container-fluid baixo" id="footer">
             <div class="container">
                 <div class="row">
-                    <!-- FOOTER TOP -->
-                    
                     <!-- FOOTER DETAILS -->
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-12 col-md-4 offset-md-3">
+                            <div class="col-12 col-md-4">
                                 <h2 id="contato" class="espaco">Entre em contato</h2>
                                 <form>
-                                    <div class="mb-3">
-                                        <input class="form-control" placeholder="Primeiro nome" type="text" id="pnome" name="pnome">
-                                        <input class="form-control" placeholder="Sobrenome" type="text" id="pnome" name="pnome">
-                                        <input type="email" class="form-control" placeholder="Digite o seu e-mail">
-                                        <label for="recado">Deixe o seu recado:</label>
-                                        <textarea class="form-control" name="recado" id="recado" cols="50" rows="5"></textarea>
+                                    <div>
+                                        <input class="form-control borda" placeholder="Primeiro nome" type="text" id="pnome" name="pnome">
+                                        <input class="form-control borda" placeholder="Sobrenome" type="text" id="pnome" name="pnome">
+                                        <input type="email" class="form-control borda" placeholder="Digite o seu e-mail">
+                                        <label class="recado" for="recado">Deixe o seu recado:</label>
+                                        <textarea class="form-control borda" name="recado" id="recado" cols="50" rows="5"></textarea>
                                     </div>
                                 </form>
                             </div>
@@ -94,16 +91,16 @@
                                         <input class="cursor margem" type="radio" id="n" name="site" value="N">
                                         <label for="n">Não</label>
                                     </div>
-                                    <button class="btn btn-dark" type="submit">Enviar</button>
                                 </form>
                             </div>
                         </div>
                     </div>
+                    <button class="btn btn-dark col-1" type="submit">Enviar</button>
                     <!-- FOOTER BOTTOM -->
                     <div class="col-12">
-                        <div class="row justify-content-between">
+                        <div class="row">
                             <div class="col-12 col-md-3 offset-md-5">
-                                <p class="secondary-color">Alessandro &copy; 2023</p>
+                                <p class="baixo">Alessandro &copy; 2023</p>
                             </div>
                         </div>
                     </div>
