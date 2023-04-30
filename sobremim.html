@@ -10,103 +10,87 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Cabeçalho -->
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top container bg">
-            <div class="container-fluid">
-                <a class="navbar-brand título" href="#">Alessandro Cardinot</a>
-                <div class="collapse navbar-collapse align" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                    <a class="nav-link active text" aria-current="page" href="#">Sobre mim</a>
-                    <a class="nav-link active text" href="#redes">Redes sociais</a>
-                    <a class="nav-link active text" href="#video">Vídeo</a>
-                    <a class="nav-link active text" href="#contato">Entre em contato</a>
-                    <a class="nav-link active text" target="_blank" href="jogo/jogo.html">Divirta-se</a>
-                    </div>
-                </div>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary container fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand título" aria-current="page" href="#">Alessandro</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav col-10 offset-md-3">
+              <a class="nav-link active link" aria-current="page" href="#">Sobre mim</a>
+              <a class="nav-link active link" href="#redes">Redes Sociais</a>
+              <a class="nav-link active link" href="#video">Vídeo</a>
+              <a class="nav-link active link" href="#contato">Entre em contato</a>
+              <a class="nav-link active link" target="_blank" href="jogo/jogo.html">Divirta-se</a>
             </div>
-        </nav>
-    </header>
-    <!-- Conteúdo -->
-    <div class="espaco container" id="baixo">
-        <h1 class="title">Sobre mim</h1>
-        <img src = "https://pps.whatsapp.net/v/t61.24694-24/158946486_5356433777730283_8012158396301012432_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdRoLfPrIv7PN9t5syHBk0Y-jnmtXQEC4ov3Ai7gzRDE1w&oe=64555194" 
-        width="200" height="200" class="foto baixo" botom-align alt = "Imagem minha">
-    </div>
-    <div class="container">
-        <p id="redes" class="espaco col-6">Meu nome é Alessandro Cardinot Bernardo da Silveira, atualmente estou cursando o 3º ano da Ensino médio no Colégio Estadual Padre Franca.</p>
-    </div>
-    <!-- Listas -->
-    <div class="espaco container baixo">
-        <h2>Redes sociais</h2>
-            <ul class="limpo">
-                <li>Facebook</li>
-                <li>Tik tok</li>
-                <li>Instagram</li>
-            </ul>
-    </div>
-    <div class="espaco container baixo">
-        <h2>Saiba mais</h2>
-            <ul class="limpo">
-                <li><a class="decoration" href="https://github.com/AlessandroCardinot" target="_blank">Github</a></li>
-                <li><a class="decoration" href="https://br.linkedin.com/" target="_blank">Linkedin</a></li>
-            </ul>
-    </div>
-    <!-- Vídeo -->
-    <div class="container baixo" id="video">
-        <h2 class="espaco">Vídeo favorito</h2>
-        <iframe class="espaco" width="1000" height="565" src="https://www.youtube.com/embed/h5IzOfmw4BU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-    <div class="espaco baixo">
-        <!-- Formulário -->
-        <footer class="container-fluid baixo" id="footer">
-            <div class="container">
+          </div>
+        </div>
+      </nav>
+      <!-- Corpo -->
+      <section class="container" id="">
+        <div>
+            <h1 id="redes">Sobre mim</h1>
+            <img class="dist" src="https://pps.whatsapp.net/v/t61.24694-24/158946486_5356433777730283_8012158396301012432_n.jpg?stp=dst-jpg_s96x96&ccb=11-4&oh=01_AdRoLfPrIv7PN9t5syHBk0Y-jnmtXQEC4ov3Ai7gzRDE1w&oe=64555194" alt="Foto minha">
+            <p class="col-11 col-md-7 dist">Meu nome é Alessandro Cardinot Bernardo da Silveira, atualmente estou cursando o 3º ano da Ensino médio no Colégio Estadual Padre Franca.</p>
+            <!-- Listas -->
+            <div>
+                <h1 class="dist">Redes Sociais</h1>
+                <ul>
+                    <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100014256372085">Facebook</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/alessandrocardinot/?hl=af">Instagram</a></li>
+                    <li><a href="#">Tik Tok</a></li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="dist" id="video">Saiba mais</h1>
+                <ul>
+                    <li><a target="_blank" href="https://github.com/AlessandroCardinot">Github</a></li>
+                    <li><a target="_blank" href="https://br.linkedin.com/">Linkedin</a></li>
+                </ul>
+            </div>
+            <!-- Vídeo -->
+            <h1 class="dist">Vídeo Preferido</h1>
+            <div class="ratio ratio-16x9">
+                <iframe class="dist" src="https://www.youtube.com/embed/h5IzOfmw4BU" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- Contato -->
+        <div>
+            <form>
                 <div class="row">
-                    <!-- FOOTER DETAILS -->
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <h2 id="contato" class="espaco">Entre em contato</h2>
-                                <form>
-                                    <div>
-                                        <input class="form-control borda" placeholder="Primeiro nome" type="text" id="pnome" name="pnome">
-                                        <input class="form-control borda" placeholder="Sobrenome" type="text" id="pnome" name="pnome">
-                                        <input type="email" class="form-control borda" placeholder="Digite o seu e-mail">
-                                        <label class="recado" for="recado">Deixe o seu recado:</label>
-                                        <textarea class="form-control borda" name="recado" id="recado" cols="50" rows="5"></textarea>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <h2 id="footer1" class="espaco">Gênero:</h2>
-                                <form>
-                                    <div class="mb-3">
-                                        <input class="cursor margem" type="radio" id="m" name="F-ou-M" value="M">
-                                        <label for="m">M</label>
-                                        <input class="cursor margem" type="radio" id="f" name="F-ou-M" value="F">
-                                        <label for="f">F</label>
-                                        <h2 id="footer2">Vc gostou do site? </h2>
-                                        <input class="cursor margem" type="radio" id="s" name="site" value="S">
-                                        <label for="s">Sim</label>
-                                        <input class="cursor margem" type="radio" id="n" name="site" value="N">
-                                        <label for="n">Não</label>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                    <div class="col-11 col-md-6">
+                      <h1 id="contato" class="dist">Entre em contato</h1>
+                        <input class="form-control dist" type="text" placeholder="Primeiro nome" nome="pnome" id="pnome">
+                        <input class="form-control dist" type="text" placeholder="Sobrenome" nome="snome" id="snome">
+                        <input class="form-control dist" type="email" placeholder="Email" nome="email" id="email">
+                        <label class="dist recado" for="recado">Deixe o seu recado:</label>
+                        <textarea class="form-control dist" name="recado" id="recado" cols="50" rows="5"></textarea>
                     </div>
-                    <button class="btn btn-dark col-1" type="submit">Enviar</button>
-                    <!-- FOOTER BOTTOM -->
-                    <div class="col-12">
-                        <div class="row">
-                            <div class="col-12 col-md-3 offset-md-5">
-                                <p class="baixo">Alessandro &copy; 2023</p>
-                            </div>
+                    <div class="col-11 col-md-6">
+                        <h1 class="radio">Gênero:</h1>
+                        <input class="radio" type="radio" id="m" name="F-ou-M" value="M">
+                        <label for="m">M</label>
+                        <input class="radio" type="radio" id="f" name="F-ou-M" value="F">
+                        <label for="f">F</label>
+                        <h1 class="radio">Você gostou do site?</h1>
+                        <input class="radio" type="radio" id="s" name="gostou" value="S">
+                        <label for="s">Sim</label>
+                        <input class="radio" type="radio" id="n" name="gostou" value="N">
+                        <label for="n">Não</label>
+                        <!-- Button -->
+                        <div class="col-1 col-md-1 offset-5 offset-md-1">
+                          <button class="btn btn-dark dist" type="submit">Enviar</button>
                         </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-    </div>
+            </form>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <p>Alessandro<span>&copy;</span>2023</p>
+      </footer>
 </body>
 </html>

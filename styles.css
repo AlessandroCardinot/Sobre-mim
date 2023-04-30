@@ -1,138 +1,117 @@
-body{
-    background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);
-    background-color: #23a6d5;
-    background-repeat: no-repeat;
-    background-size: cover;
+* {
+    font-family: Helvetica;
 }
-.baixo {
-    margin-top: 90px;
-}
-/* LINK */
-.decoration{
-    text-decoration: none;
-    color: #156b0f;
-}
-.decoration:hover{
-    color: rgb(168, 29, 29);
-}
-/* Cabeçalho */
-.fixo{
-    position: fixed;
-    left: 0;
-    top: 0;
-    font-size: 29px;
-    width: 100%;
-    padding: 20px;
-    background-color: #23a6d5;
-    margin: 0px;
-    color: #ffffff;
-    border-bottom: 1px solid #fff;
-}
-.bg {
+body {
     background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: right;
+    background-color: #23a6d5;
+}
+.dist {
+    margin-top: 1em;
+}
+/* Navbar */
+nav {
+    background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #23a6d5;
 }
 .título {
     font-size: 40px;
 }
-.text {
+.link {
     font-size: 20px;
     margin-left: 40px;
 }
-.text:hover {
+.link:hover{
     border-bottom: 1px solid #000;
 }
-.navbar-nav {
-    margin-left: 110px;
+/* Corpo */
+section {
+    margin-top: 20%;
 }
-/* Conteúdo */
-.espaco{
-    margin-top: 40px;
-    font-weight: 50px;
+img {
+    width: 35%;
+    height: 35%;
 }
-p{
-    font-size: 20px;
-    color: #000000;
+p, li a {
+    font-size: 1.25em;
 }
-#baixo{
-    padding-top: 100px;
+li a:link {
+    text-decoration: none;
+    color: #36b33c;
 }
-h2{
-    font-size: 40px;
-    color: #000000;
+li a:visited {
+    color: #1439df;
 }
-.foto {
-    border: 5px solid #2361d5;
-    margin-top: 40px;
+li a:hover {
+    color: #f74242;
 }
-.title {
-    font-size: 50px;
+ul {
+    list-style: none;
 }
-/* Formulário */
-label{
-    
-    font-size: 20px;
-    color: #fff;
+h1 {
+    font-size: 2em;
 }
-fieldset{
-    border: 0;
+@media(min-width: 768px) {
+    section {
+        margin-top: 7%;
+    }
+    img {
+        width: 15%;
+        height: 15%;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
 }
-h4 {
-    color: #fff;
+/* Contato */
+.recado {
+    font-size: 2em;
 }
-input {
-    margin: 1em 0;
-}
-.margem {
-    margin: 3em 0 6em 7em;
-}
-#footer1 {
+.radio {
+    margin-top: 2em;
     margin-left: 3em;
 }
-#footer2 {
-    margin-left: 1em;
-    margin-top: 65px;
+h1.radio {
+    margin-top: 1em;
+    margin-left: 0.5em;
 }
-.recado {
-    margin-top: 40px;
-    color: #000;
-    font-size: 40px;
+@media(min-width: 768px) {
+    .recado {
+        font-size: 2.5em;
+    }
+    .radio {
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    h1.radio {
+        margin-top: 1em;
+        margin-left: 0.5em;
+    }
 }
-.borda {
-    border: 3px solid #2361d5;
-}
-/* Lista */
-.limpo{
-    list-style: none;
-    color: #000000;
-}
-li{
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-/* Botão */
-.btn{
-    border: none;
-    padding: 10px 28px;
-    background-color: #23a6d5;
-    color: #000281;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 7px;
-    font-size: 20px;
-    margin-top: 50px;
-    margin-left: 15px;
-}
-.cursor{
-    cursor: pointer;
-}
-.btn:hover{
-    border: none;
-    padding: 10px 28px;
-    background-color: #000281;
+/* Button */
+.btn {
+    background-color: #0024c4;
     color: #23a6d5;
-    cursor: pointer;
+    border: none;
+    margin-top: 2em;
+    font-size: 1.25em;
+    padding: 0.5em 1.5em;
+}
+.btn:hover {
+    background-color: #23a6d5;
+    color: #0024c4;
+    border: none;
+}
+@media(min-width: 768px) {
+    .btn {
+        margin-top: 7em;
+    }
+}
+/* Footer */
+footer {
+    margin-top: 3em;
+    text-align: center;
 }
