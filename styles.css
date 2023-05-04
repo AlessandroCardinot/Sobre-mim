@@ -29,7 +29,7 @@ nav {
 }
 /* Corpo */
 section {
-    margin-top: 20%;
+    margin-top: 25%;
 }
 img {
     width: 35%;
@@ -40,7 +40,7 @@ p, li a {
 }
 li a:link {
     text-decoration: none;
-    color: #36b33c;
+    color: #206e24;
 }
 li a:visited {
     color: #1439df;
@@ -66,6 +66,13 @@ h1 {
         font-size: 2.5em;
     }
 }
+/* Cards */
+.center {
+    text-align: center;
+}
+.card-title {
+    font-size: 30px;
+}
 /* Contato */
 .recado {
     font-size: 2em;
@@ -88,7 +95,10 @@ h1.radio {
     }
     h1.radio {
         margin-top: 1em;
-        margin-left: 0.5em;
+        text-align: center;
+    }
+    .centralizar {
+        text-align: center;
     }
 }
 /* Button */
