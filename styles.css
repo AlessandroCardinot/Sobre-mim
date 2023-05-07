@@ -1,21 +1,33 @@
 * {
     font-family: Helvetica;
+    color: #d6d9ea;
 }
 body {
-    background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);
+    /*background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #23a6d5;
+    background-color: #3c5571;
 }
 .dist {
     margin-top: 1em;
 }
+.bg {
+    background-color: #172432;
+    padding-top: 0.1em;
+    padding-bottom: 5em;
+}
 /* Navbar */
 nav {
-    background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);
+    /*background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #23a6d5;
+    background-color: #3c5571;
+}
+.cor {
+    color: #d6d9ea;
+}
+.cor:hover {
+    color: #d6d9ea;
 }
 .título {
     font-size: 40px;
@@ -23,9 +35,11 @@ nav {
 .link {
     font-size: 20px;
     margin-left: 40px;
+    color: #d6d9ea;
 }
 .link:hover{
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #d6d9ea;
+    color: #d6d9ea;
 }
 /* Corpo */
 section {
@@ -35,18 +49,19 @@ img {
     width: 35%;
     height: 35%;
 }
+/* Listas */
 p, li a {
     font-size: 1.25em;
 }
 li a:link {
     text-decoration: none;
-    color: #206e24;
+    color: #8ccadd;
 }
 li a:visited {
-    color: #1439df;
+    color: #678fa3;
 }
 li a:hover {
-    color: #f74242;
+    color: #435e69;
 }
 ul {
     list-style: none;
@@ -103,16 +118,16 @@ h1.radio {
 }
 /* Button */
 .btn {
-    background-color: #0024c4;
-    color: #23a6d5;
+    background-color: #3c5571;
+    color: #172432;
     border: none;
     margin-top: 2em;
     font-size: 1.25em;
     padding: 0.5em 1.5em;
 }
 .btn:hover {
-    background-color: #23a6d5;
-    color: #0024c4;
+    background-color: #172432;
+    color: #3c5571;
     border: none;
 }
 @media(min-width: 768px) {
