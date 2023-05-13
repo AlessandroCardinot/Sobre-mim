@@ -3,7 +3,6 @@
     color: #d6d9ea;
 }
 body {
-    /*background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #3c5571;
@@ -16,21 +15,27 @@ body {
     padding-top: 0.1em;
     padding-bottom: 5em;
 }
+.bg-primary-color {
+    background-color: #3c5571;
+}
+.bg-secondary-color {
+    background-color: #172432;
+}
 /* Navbar */
 nav {
-    /*background-image: url(https://programadoresdepre.com.br/wp-content/uploads/2022/05/gradiente-1024x486.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #3c5571;
 }
-.cor {
-    color: #d6d9ea;
-}
-.cor:hover {
-    color: #d6d9ea;
-}
 .título {
     font-size: 40px;
+    color: #d6d9ea;
+}
+.título:hover {
+    color: #d6d9ea;
+}
+.título:visited {
+    color: #d6d9ea;
 }
 .link {
     font-size: 20px;
@@ -40,6 +45,17 @@ nav {
 .link:hover{
     border-bottom: 1px solid #d6d9ea;
     color: #d6d9ea;
+}
+.link:visited {
+    color: #d6d9ea;
+}
+#img-nav {
+    width: 50px;
+}
+@media(min-width: 768px) {
+    #img-nav {
+        width: 75px;
+    }
 }
 /* Corpo */
 section {
@@ -86,7 +102,34 @@ h1 {
     text-align: center;
 }
 .card-title {
-    font-size: 30px;
+    font-size: 50px;
+}
+.card p {
+    color: #678fa3;
+}
+.card-tam {
+    padding: 25px 5px;
+}
+.card-tam#meio {
+    padding: 4px;
+}
+.card i {
+    color: #000;
+}
+.card {
+    border: 0;
+}
+@media(min-width: 768px) {
+    .card-tam {
+        padding: 20px;
+    }
+    .card-tam#meio {
+        margin-top: 15px;
+        padding: 1px;
+    }
+    .card {
+        border: 0.001em solid #3c5571;
+    }
 }
 /* Contato */
 .recado {
